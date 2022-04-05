@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100vh;/*toglie l'effetto rigato di default che si crea con il gradiant*/
+}
+
+body{
+    margin: 0;
+    background: rgb(1,0,15);
+    background: radial-gradient(circle, rgba(1,0,15,0) 0%, rgba(122,5,205,1) 0%, rgba(79,3,140,1) 57%, rgba(8,7,33,1) 100%);
+}
+
+
+
+h1{
+    font-family: 'Creepster', cursive;
+    color: rgb(11, 160, 6);
+    text-shadow: 5px 5px 5px rgb(36, 35, 35);
+    font-weight: normal;
+    text-align: center;
+    font-size: 6em;
+}
+
+.info-container{
+    grid-column: 1 /-1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-info{
+    color: black;
+    font-size: 4em;
+    padding-bottom: 1.4em;
+
+}
+
+.container{
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-gap: 10px;
+    margin: 50px;
+    justify-content: center;
+        
+}
+
+.cards{
+    
+    background-color: black;
+    height: 175px;
+    width: 125px;
+}
+
+
+
+
+
+
+
+
+
